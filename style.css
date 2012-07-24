@@ -1,0 +1,22 @@
+/**
+ * Theme Name: Path Child
+ * Theme URI: http://foxnet.fi
+ * Description: A child theme of Path parent theme.
+ * Version: 0.1
+ * Author: Sami Keijonen
+ * Author URI: http://foxnet.fi
+ * Tags: post-formats, sticky-post, theme-options, threaded-comments, translation-ready, one-column, two-columns, three-columns, flexible-width, left-sidebar, right-sidebar, custom-background, custom-header, featured-images, editor-style, red, white, light
+ * License: GNU General Public License v2.0
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Template: path
+ */
+
+/* Importing the parent theme stylesheet. */
+@import url( '../path/style.css' );
+
+/**
+* Note: If you want to use media queries in child theme and support them in browsers like IE7 and IE8,
+* you should copy and paste parent theme style.css in here and remove line @import url( '../path/style.css' );
+* Remember also change all url instances in backgound like this.
+* background: url(../path/images/menu-plus.png) no-repeat 0 0;
+*************************/
